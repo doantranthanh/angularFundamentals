@@ -14,9 +14,9 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
           {{ event.location.city }}, {{ event.location.country }}
         </span>
       </div>
-      <button class="btn btn-primary" (click)="handleClickMe()">
+      <!-- <button class="btn btn-primary" (click)="handleClickMe()">
         Click me
-      </button>
+      </button> -->
     </div>
   `,
   styles: [
