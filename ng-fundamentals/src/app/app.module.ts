@@ -7,14 +7,14 @@ import { EventThumbnailComponent } from "./events/event-thumbail.component";
 import { NavBarComponent } from "./nav/navbar.component";
 
 @NgModule({
-  declarations: [
-    EventsAppComponent,
-    EventsListComponent,
-    EventThumbnailComponent,
-    NavBarComponent,
-  ],
-  imports: [BrowserModule],
-  providers: [],
-  bootstrap: [EventsAppComponent],
+    declarations: [
+        EventsAppComponent,
+        EventsListComponent,
+        EventThumbnailComponent,
+        NavBarComponent,
+    ],
+    imports: [BrowserModule],
+    providers: [],
+    bootstrap: [EventsAppComponent],
 })
 export class AppModule {}
